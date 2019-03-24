@@ -17,7 +17,6 @@ function convertExcelToJson(path) {
 const translationMap = {};
 const rows = convertExcelToJson(excelFilePath);
 for (const row of rows) {
-  // console.log( Object.keys(row))
 
   for (const header of Object.keys(row)) {
     const key  = row.Key;
