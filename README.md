@@ -1,5 +1,5 @@
 # translation-generator
-generate translation JSONs based on the xslx file. This Script is for use internally at Badgewell
+generate translation JSONs based on the xslx file. This script is for use internally at Badgewell
 
 ## Installtion
 * install nodejs .
