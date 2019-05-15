@@ -22,7 +22,7 @@ for (const row of rows) {
     const key  = row.Key;
     if(header != 'Key'){
       const object = typeof translationMap[header] == 'undefined'?  {}  : translationMap[header]
-      object[key] = row[header] 
+      object[key] = row[header].replace('â€™', '\'')
       translationMap[header] = object
     }
   }
